@@ -3,8 +3,8 @@ const path = require('path');
 const chokidar = require('chokidar');
 
 // Configuration
-const SOURCE_DIR = '/workspaces/WebsitePreview/generated_code'; // Where AI-generated code will be placed
-const TARGET_DIR = '/workspaces/WebsitePreview/raaghu-react/raaghu-pages/src'; // Where files should be copied to
+const SOURCE_DIR = '/workspaces/AI-Pundit-Preview/generated_code'; // Where AI-generated code will be placed
+const TARGET_DIR = '/workspaces/AI-Pundit-Preview/raaghu-react/raaghu-pages/src'; // Where files should be copied to
 
 // Create source directory if it doesn't exist
 if (!fs.existsSync(SOURCE_DIR)) {
